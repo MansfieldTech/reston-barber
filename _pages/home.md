@@ -1,57 +1,35 @@
 ---
-title: "Splash Page"
+title: "Reston Barber"
 layout: splash
 permalink: /
 header:
   overlay_color: "#000"
-  overlay_filter: "0.5"
+  overlay_filter: "0.2"
   overlay_image: /assets/images/2019-06-15.jpg
-  actions:
-    - label: "Download"
-      url: "https://github.com/mmistakes/minimal-mistakes/"
-  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
-excerpt: "Bacon ipsum dolor sit amet salami ham hock ham, hamburger corned beef short ribs kielbasa biltong t-bone drumstick tri-tip tail sirloin pork chop."
+  caption: "Photo credit: Robert Curcio"
+excerpt: "Reston barber shop is a full service barber shop for you and your family needs"
 intro: 
-  - excerpt: 'Nullam suscipit et nam, tellus velit pellentesque at malesuada, enim eaque. Quis nulla, netus tempor in diam gravida tincidunt, *proin faucibus* voluptate felis id sollicitudin. Centered with `type="center"`'
+  - excerpt: 'Specialized haircuts, neck shave, once- over with the "hair vac", as well as a warm and soothing hot towle treatment after your cut. Remember us for your traditional cuts to new modern, flat tops and spikes.... We can do it all !'
 feature_row:
-  - image_path: assets/images/unsplash-gallery-image-1-th.jpg
-    alt: "placeholder image 1"
-    title: "Placeholder 1"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
-  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
-    image_caption: "Image courtesy of [Unsplash](https://unsplash.com/)"
-    alt: "placeholder image 2"
-    title: "Placeholder 2"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
-    url: "#test-link"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
-  - image_path: /assets/images/unsplash-gallery-image-3-th.jpg
-    title: "Placeholder 3"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
+  - image_path: assets/images/hunghue.jpg
+    alt: "Mai and Hung"
+    title: "Mai and Hung"
+    excerpt: "Owners of Reston Barber"
+  - image_path: /assets/images/storefront_boxed.jpg
+    image_caption: ""
+    alt: "Barber seats"
+    title: "Easy Location"
+    excerpt: "We offer a variety of services for all ages and styles"
+  - image_path: /assets/images/7.jpg
+    title: "Recently Expanded"
+    excerpt: "We recently doubled our chairs to reduce potential wait times"
 feature_row2:
-  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
-    alt: "placeholder image 2"
-    title: "Placeholder Image Left Aligned"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Left aligned with `type="left"`'
-    url: "#test-link"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
-feature_row3:
-  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
-    alt: "placeholder image 2"
-    title: "Placeholder Image Right Aligned"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Right aligned with `type="right"`'
-    url: "#test-link"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
-feature_row4:
-  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
-    alt: "placeholder image 2"
-    title: "Placeholder Image Center Aligned"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Centered with `type="center"`'
-    url: "#test-link"
-    btn_label: "Read More"
+  - image_path: /assets/images/location_map.png
+    alt: "Location Map"
+    title: "Minutes from Reston Town Center"
+    excerpt: "Our shop just 1 minute from the Reston golf course and 5 minutes from the Reston town center. It's easy to access from the toll road(267) or reston parkway"
+    url: "https://www.google.com/maps/dir//Reston+Barber+Shop,+11523+Sunrise+Valley+Dr,+Reston,+VA+20191"
+    btn_label: "Get Directions"
     btn_class: "btn--primary"
 ---
 
@@ -60,7 +38,3 @@ feature_row4:
 {% include feature_row %}
 
 {% include feature_row id="feature_row2" type="left" %}
-
-{% include feature_row id="feature_row3" type="right" %}
-
-{% include feature_row id="feature_row4" type="center" %}
